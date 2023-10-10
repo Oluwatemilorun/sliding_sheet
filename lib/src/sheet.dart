@@ -960,7 +960,7 @@ class _SlidingSheetState extends State<SlidingSheet>
                   child: FractionalTranslation(
                     translation: Offset(0, translation),
                     child: SheetContainer(
-                      color: widget.color ?? Theme.of(context).accentColor,
+                      color: widget.color ?? Theme.of(context).cardColor,
                       border: widget.border,
                       margin: widget.margin,
                       padding: EdgeInsets.fromLTRB(
